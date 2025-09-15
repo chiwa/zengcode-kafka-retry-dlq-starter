@@ -1,0 +1,2 @@
+logging.level.org.springframework.kafka=DEBUG
+logging.level.com.zengcode.kafka=DEBUG

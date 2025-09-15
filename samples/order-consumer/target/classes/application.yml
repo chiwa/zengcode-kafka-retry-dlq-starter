@@ -1,0 +1,16 @@
+spring:
+  kafka:
+    bootstrap-servers: localhost:9092
+    consumer:
+      group-id: order-consumer
+      auto-offset-reset: earliest
+
+kafka.retry:
+  enabled: true
+  backoff-type: EXPONENTIAL
+  initial-interval-ms: 1000
+  multiplier: 2.0
+  max-interval-ms: 30000
+  max-attempts: 5
+  retry-suffix: ".retry"
+  dlq-suffix: ".dlq"

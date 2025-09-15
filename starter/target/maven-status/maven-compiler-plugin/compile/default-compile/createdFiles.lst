@@ -1,0 +1,7 @@
+com/zengcode/kafka/retry/KafkaRetryAutoConfiguration.class
+com/zengcode/kafka/retry/KafkaRetryAutoConfiguration$1.class
+com/zengcode/kafka/retry/KafkaRetryProperties.class
+com/zengcode/kafka/retry/KafkaRetryProperties$BackoffType.class
+com/zengcode/kafka/retry/RetryHeaders.class
+com/zengcode/kafka/retry/RetryingRecordInterceptor.class
+com/zengcode/kafka/retry/KafkaRetryErrorHandler.class
